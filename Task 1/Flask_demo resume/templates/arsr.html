@@ -1,0 +1,250 @@
+  <!DOCTYPE html>
+<html>
+<title>Resume</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+<style>
+html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
+.mySlides {display:none}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-large w3-light-grey">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block">Home</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#plans" class="w3-button w3-block">Educational Details</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block">Project and Acquired Technologies</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#contact" class="w3-button w3-block">Contact</a>
+    </div>
+  </div>
+</div>
+    <!-- Slideshow next/previous buttons -->
+    <div class="w3-container w3-dark-grey w3-padding w3-xlarge">
+      <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+      <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+
+      <div class="w3-center">
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+
+
+  <!-- Grid -->
+  <div class="w3-row w3-container">
+    <div class="w3-center w3-padding-64">
+      <div>
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Resume</span>
+    </div>
+    </div>
+    <div class="jumbotron">
+    <div class="row">
+    <div class="col-sm-9">
+    <img src="{{ url_for('static',filename ='BRT_1262 copy.jpg')}}" width="150" height="150" alt="Arshiy" ><br><br>
+    <b>SHAIK ARSHIYA</b><br><br>
+  </div>
+  <div class="col-sm-9">
+
+  <p>  Reg.No : 1610449<br>
+      Mobile : 8790965937<br>
+      Email Id : sarshiya22013@gmail.com</p><br>
+    </div>
+  </div>
+  <h1>CAREEROBJECTIVE :</h1><br>
+  <ul>
+  <p>To work in a firm with a professional work driven environmen twhere I can utilize and<br>
+  apply my knowledge , skills which would enable me as a fresh graduate to grow while<br>
+  fulfilling organizational goals.</p>
+</ul>
+</div>
+</div>
+  <!-- Grid -->
+  <div class="w3-row-padding" id="plans">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Educational Details</span><br><br>
+      <p>Achievements and Strenths</p>
+    </div>
+    <div class="jumbotron">
+<style media="screen">
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+<h2>EDUCATIONAL DETAILS</h2><br>
+
+<table>
+  <tr>
+    <th>Degree/Examination</th>
+    <th>Collage/Institute</th>
+    <th>Year of Study</th>
+    <th>Percentage</th>
+  </tr>
+  <tr>
+    <td>Data science intrn</td>
+    <td>Innomatics reasurch labs</td>
+    <td>2020</td>
+    <td> - </td>
+  </tr>
+  <tr>
+    <td>B.Tech(E.E.E)</td>
+    <td>Sri Krishnadevaraya University
+        College of engineering and
+           technology</td>
+    <td>2016-2020</td>
+    <td>73</td>
+  </tr>
+  <tr>
+    <td>Intermediate</td>
+    <td>Intermediate Board of Education</td>
+    <td>2014-2016</td>
+    <td>90</td>
+  </tr>
+  <tr>
+    <td>SSC</td>
+    <td>Board of Secondary Education</td>
+    <td>2013-2014</td>
+    <td>88</td>
+  </tr>
+</table>
+ <h1>ACHIEVEMENTS:</h1><br>
+ <ul>
+   <li>Received “BeststudentAward“ in school.</li><br>
+   <li>Received State first prize in shotput championship.</li><br>
+   <li>Received secondprizeinshot-putincollege.</li><br>
+ </ul>
+<h1>STRENGTHS:</h1><br>
+<ul>
+  <li>Dedication and willingness to walk an extra mile to learn new things.</li><br>
+  <li>Easily adaptable to any type of environment.</li><br>
+  <li>Problem solving capability.</li><br>
+  <li>Good team facilitator.</li><br>
+</ul>
+  </div>
+</div>
+
+  <!-- Grid -->
+  <div class="w3-row-padding" id="about">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Acadmic Project</span><br><br>
+      <p>Acquired Technologies</p>
+    </div>
+<div class="jumbotron">
+    <h1>ACADMIC PROJECT</h1>
+
+<h3>MINI PROJECT: </h3><br>
+<p><b>Mini project title</b>: Free energy mobile charge using PiezoIgniters.</p>
+<b>DESCRIPTION: </b>
+<ul> This project is based on charging the mobile battery with the help of two DC motors<br>
+     and PiezovIgniters. It is useful to maintain the mobile phones in switch on  mode ,<br>
+     for good communication and it is also useful to how use the PiezoIgniters and how<br>
+      it can work .</ul><br><br>
+
+<h1>MAIN PROJECT:</h1><br>
+<p> <b>Main project title</b> : voltage stability analysis of smart grid and application of facts<br>
+    controller .</p><br><br>
+<b> DESCRIPTION: </b><br>
+<ul>
+  <li>The main objective is to designa voltage stability analysis of smart grid and<br>
+application of facts controller.</li>
+<li>Increased penetration of renewable resources have made the situation worst.<br>
+A small disturbance to these stretched limits may lead to voltage collapse.</li>
+<li>Thus it indeed important to developunder standing of the phenomenon through<br>
+reviewing various case studies in literature.</li>
+</ul>
+<h1>ACQUIRED TECHNOLOGIES:</h1><br>
+<ul><br>
+<b>PROGRAMMING LANGUAGES :</b>
+<li>C</li>
+<li>python</li>
+<li>Data science</li>
+</ul>
+<ul><br>
+<b>OPERATING SYSTEM :</b>
+  <li>Windows </li>
+  <li>MS office</li>
+</ul>
+<ul><br>
+<b> WEB DEVELOPMENT :</b>
+  <li> HTML</li>
+  <li>Flask</li>
+</ul>
+  </div>
+</div>
+  <!-- Contact -->
+  <div class="w3-center w3-padding-64" id="contact">
+    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Contact</span>
+  </div>
+<div class="jumbotron">
+  <div>
+  <p><b>Name :</b> S.Arshiya</p>
+  <p><b>Phone number :</b> 8790965937</p>
+  <p><b>Email :</b> sarshiya22013@gmail.com</p>
+</div>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-linkedin w3-hover-opacity"></i><br>
+      <a href="https://www.linkedin.com/in/shaik-arshiya-7a54981aa">linkedin.com</a>
+  </div>
+</div>
+</div>
+
+
+<script>
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demodots");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+</body>
+</html>
